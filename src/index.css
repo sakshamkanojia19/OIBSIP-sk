@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  font-family: 'Inter',sans-serif;
+   
+
+  /* Default state */
+.nav-link {
+  display: inline-block; /* Required for transform to work */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth animation */
+}
+
+/* Hover state */
+.nav-link:hover {
+  transform: translateY(-4px); /* Move upwards by 4px */
+  color: #d947f7; /* Optional: Change color */
+}
+
+
+
+}
+
